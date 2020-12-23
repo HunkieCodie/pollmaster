@@ -16,7 +16,7 @@ from essentials.messagecache import MessageCache
 from essentials.multi_server import get_pre
 from essentials.settings import SETTINGS
 
-#This is the ClusterBot Class
+#This is the ClusterBot Class- just added for fun
 class ClusterBot(commands.AutoShardedBot):
     def __init__(self, **kwargs):
         self.pipe = kwargs.pop('pipe')

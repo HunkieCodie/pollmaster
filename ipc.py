@@ -10,6 +10,7 @@ async def dispatch(data):
     for cluster_name, client in CLIENTS.items():
         await client.send(data)
         print(f'> Cluster[{cluster_name}]')
+        print()
 
 
 async def serve(ws, path):
